@@ -280,12 +280,6 @@ class ImageEditorRc extends Component {
           alt={alt === undefined ? 'picture' : alt}
           style={{ opacity: 0 }}
         />
-        <br />
-        <ul >
-          <li><button onClick={() => this.rotateToRight()}>Rotate Right</button></li>
-          <li><button onClick={() => this.rotateToLeft()}>Rotate Left</button></li>
-          <li><button onClick={() => this.crop(this.props, this.saveImage)}>Save</button></li>
-        </ul>
       </div>
     );
   }
